@@ -1,0 +1,171 @@
+
+.header{
+    background: #650715;
+    position: fixed; /* para dejarlo fijo la barra roja que estan los menus*/
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.header header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.header header .logo a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #443cb4;
+    text-decoration: none; /*subrayado o línea sobre el texto enlaces*/
+}
+
+.header header ul{
+    display: flex;
+    list-style: none;
+}
+
+.header header nav ul li a{
+    text-align: none;
+    color: white;
+    margin: 15px; /*separacion*/
+    padding: 3px;
+    transition: .5s; /* si pasas el cursor cambia de color*/
+    text-decoration: none; /*subrayado o línea sobre el texto enlaces*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.header header nav ul li a:hover{
+    color: #443cb4;
+}
+
+/* inicio */
+
+.inicio{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170vh; /*tamaño de la parte negra*/
+    color: #fff; /* color de las letras de la parte azul que contiene la foto*/
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    padding: 60px;
+    background-color: #222527;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 100px; /* radio de las parte azul que contiene la foto*/
+}
+
+.inicio .banner img{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.inicio .banner h1{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inicio h1 {
+    background-color: #991112;
+}
+.inicio h2 {
+    background-color: #991112;
+}
+
+.inicio .banner h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.inicio .banner .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none; /*subrayado o línea sobre el texto enlaces*/
+    width: 100px;/*tamaño que tiene de largo cuando se resalta al pasar el puntero*/
+    height: 50px;/*tamaño que tiene de ancho cuando se resalta al pasar el puntero*/
+    line-height: 50px; /*separacion de los link de las redes*/
+    font-size: 20px;
+    transition: .5s;
+}
+
+.inicio .banner .redes a:hover{
+    background-color: #730602;
+}
+
+/* Sobre mi */
+
+.sobremi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobremi .mi{
+    max-width: 900px;
+    margin: auto;
+}
+
+.sobremi h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0px; 
+
+}
+
+.sobremi .mi p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.sobremi .col h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0px; 
+}
+
+.sobremi strong{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:aquamarine
+}
+
+.sobremi .col ul li{
+    margin: 12px 0;
+}
+
+.sobremi li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/* Curriculum */
+
+.curriculum .contenido .colum h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:aquamarine
+}
+
+.curriculum .contenido .colum li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 12px 0;
+}
